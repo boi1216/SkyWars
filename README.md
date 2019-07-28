@@ -1,0 +1,2 @@
+# SkyWars
+Minigame for pocketmine
