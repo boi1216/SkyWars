@@ -554,7 +554,7 @@ class Arena
                 foreach($this->players as $player){
                     $player->sendTip(TextFormat::AQUA . "Starting in " . TextFormat::YELLOW . gmdate("i:s", $this->startTime));
                 }
-                if(count($this->players) >= $this->slots - 2 && $this->startTime < 15){
+                if(count($this->players) >= $this->slots - 2 && $this->startTime > 15){
                     $this->startTime = 15;
                 }
                 if($this->startTime == 0){
